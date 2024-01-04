@@ -1,26 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #002339;
     color: #fff;
-    /* justify-content: center;
-    align-items: center;
-    text-align: center; */
 }
 
-.container{
+.container {
     width: 90%;
     max-width: 700px;
     margin: 12%;
-    /* text-align: center; */
 }
 
-.display{
+.display {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -33,35 +29,35 @@ body{
     border-radius: 5px;
 }
 
-.container h1{
+.container h1 {
     font-weight: 500;
     font-size: 45px;
 }
 
-.container h1 span{
+.container h1 span {
     color: #019f55;
-    border-bottom: 4px solid#019f55;
+    border-bottom: 4px solid #019f55;
     padding-bottom: 7px;
 }
 
-
-.display img{
+.display img {
     width: 30px;
     cursor: pointer;
 }
 
-.display input{
+.display input {
     border: 0;
     outline: 0;
     font-size: 24px;
+    width: 70%; 
 }
 
-.container button img{
+.container button img {
     width: 28px;
     margin-right: 10px;
 }
 
-.container button{
+.container button {
     border: 0;
     outline: 0;
     background: #019f55;
@@ -74,4 +70,29 @@ body{
     padding: 16px 26px;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px; 
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 8%;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .display {
+        padding: 20px;
+    }
+
+    .display input {
+        font-size: 18px;
+    }
+
+    .container button {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
 }
