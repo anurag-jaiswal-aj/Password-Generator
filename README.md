@@ -2,7 +2,7 @@ Overview:
 Day 4 of the #30Days30Projects challenge brings you a Password Generator - a tool to create strong and secure passwords on the fly. Built with HTML, CSS, and JavaScript, customize your passwords to meet your security needs.
  
 Features:
-User-friendly Design: HTML and CSS for an intuitive interface.
+User-friendly Design: HTML and CSS for an intuitive interface. 
 JavaScript Magic: Generate secure passwords effortlessly.
 Copy Paste: You can copy the password using copy icon.
 
